@@ -13,6 +13,6 @@ struct CoinModel {
    // let bitcoinLabeltext: String
     
     var currencyString: String{
-        return String(format: "%.1f", currencyLabelNumber)
+        return String(format: "%.3f", currencyLabelNumber)
     }
 }

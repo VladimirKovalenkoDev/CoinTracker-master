@@ -43,7 +43,7 @@ struct CoinManager {
              
           }
                                 }
-          // start the task
+         
           task.resume()
           }
     }
@@ -55,7 +55,7 @@ struct CoinManager {
             let lastPrice = decodeData.rate
             
             let coinModel = CoinModel(currencyLabelNumber: lastPrice)
-            //print(lastPrice)
+            
               return coinModel
           }catch{
              delegate?.didFailWithError(error: error  )
